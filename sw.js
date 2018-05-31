@@ -1,8 +1,8 @@
 var CACHE_NAME = 'hello-world-page';
 var urlsToCache  = [
-  '/index.html',
-  '/style.css',
-  'lena.png'
+  './index.html',
+  './style.css',
+  './lena.png'
 ];
 
 self.addEventListener('install', function(event) {
